@@ -4,6 +4,6 @@
   
   
   - name: delete deployment for frontend 
-    command: kubectl version  
+    command: kubectl apply -f deploymentfront.yaml  
   
   
