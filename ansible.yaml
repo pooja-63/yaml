@@ -3,6 +3,8 @@
   tasks:
   
   - name: delete deployment for frontend 
-    command: sudo kubectl get pods
+    command: kubectl get pods
+  - name: delete deployment for frontend 
+    command: kubectl version  
   
   
